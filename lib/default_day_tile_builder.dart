@@ -3,7 +3,6 @@ import 'package:calendarro/default_day_tile.dart';
 import 'package:flutter/material.dart';
 
 class DefaultDayTileBuilder extends DayTileBuilder {
-
   DefaultDayTileBuilder();
 
   @override
