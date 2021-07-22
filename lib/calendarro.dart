@@ -225,7 +225,7 @@ class CalendarroState extends State<Calendarro> {
               },
               icon: Icon(Icons.arrow_back_ios, size: 18),
             ),
-            Text(currentDate),
+            Text(currentDate, style: TextStyle(fontWeight: FontWeight.bold)),
             IconButton(
               onPressed: () {
                 controller.nextPage(
